@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@RunWith(SpringRunner.class)
+@RunWith(SpringRunner.class)                //https://stackoverflow.com/questions/58901288/springrunner-vs-springboottest
 public class UserAPIIntegrationTest {
 
     @Autowired
